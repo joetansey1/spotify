@@ -1,0 +1,13 @@
+from(bucket: "spotify")
+  |> range(start: -30d)
+  |> filter(fn: (r) =>
+    r._measurement == "spotify_play" and
+    r._field == "value"
+  )
+  |> group(columns: ["track", "artist", "genre"])
+  |> count()
+  |> group()
+  |> sort(columns: ["_value"], desc: true)
+  |> limit(n: 20)
+  |> keep(columns: ["track", "artist", "genre", "_value"])
+  |> rename(columns: {_value: "play_count"})
