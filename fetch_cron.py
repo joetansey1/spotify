@@ -16,9 +16,9 @@ client = InfluxDBClient(url=URL, token=TOKEN)
 write_api = client.write_api(write_options=SYNCHRONOUS)
 
 # ===== Spotify Setup =====
-SPOTIFY_CLIENT_ID = "400ad5deedda48b3b76a1229d54d9791"
-SPOTIFY_CLIENT_SECRET = "7f1b6fa6e51848b9963cfaa1aab54af5"
-REFRESH_TOKEN = "AQAe0R3NDHJ5TyPuTyTSVahsnqq3dD1sQlQLUL_5CBB0rpOZejoLjYrhd-jqtaIFdUMkE2_TVSiIu2zKeB3sSAn6Q4WRcoG9PJeydeu6QdC63RGqxcUvnZQkiSKTh2Cfq_Q"
+SPOTIFY_CLIENT_ID =  "UR TOKEN HERE"
+SPOTIFY_CLIENT_SECRET =  "UR TOKEN HERE"
+REFRESH_TOKEN = "UR TOKEN HERE"
 
 def get_access_token():
     response = requests.post(
