@@ -1,4 +1,6 @@
 # Full working version of fetch_cron.py, based on your earlier script with the correct indentation and fixed InfluxDB write format
+#This is the file that you want, the rest in the repo are to debug/test/evaluate your environment#
+
 
 print("🧪 Starting fetch_cron.py...")
 import requests
