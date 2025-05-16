@@ -4,7 +4,7 @@ from influxdb_client import InfluxDBClient, Point, WritePrecision
 from influxdb_client.client.write_api import SYNCHRONOUS
 
 # ======== Config =========
-SPOTIFY_ACCESS_TOKEN = "BQCeHd4stZ2pCzQ5WQ3qruo8_otb0UR7TDFCY4CND1M9gy_fOiKzHUbgvtF8I2sb90ApZ_IhH6iIX_pjFBZryXQ9xP9xtQUcqvgKa_E2dZLHgGt2Ko7ZQCDHfFJ-3iInfnksoBOGNgsaiBqczhfh5ctQmnqcY6FnaqtuXIOJmAEN0qGEAlypjBJTFWtUb5zBuxvKnbEqzDr_YlUoCG_uoo0JRf7VVEcGYutekSs"
+SPOTIFY_ACCESS_TOKEN = "UR TOKEN HERE"
 INFLUXDB_URL = 'http://grafanapi.local:8086'
 INFLUXDB_TOKEN = '22wz8ZM3Fq8Vo9IX2ZBuvLaE00BmeHL7Jvzdw41hGoMnRmllyh9qJxyNqSQjtUYpseeJVbstyTWCyX3UoJYT3w=='
 ORG = "grafanapi"
