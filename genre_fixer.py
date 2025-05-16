@@ -5,9 +5,9 @@ from influxdb_client import InfluxDBClient, Point, WritePrecision
 from influxdb_client.client.write_api import SYNCHRONOUS
 
 # ===== Config =====
-SPOTIFY_ACCESS_TOKEN = "BQDsNx8_m5f4pu0C0pji0ccTb6fET8tc5qiRVmFa6YtuzRpT9bTQ4KV2FDNS8N9tI20Ty5_FDgeyIaMwIsevr52iiDxcqTrUSuldV8aijoo54hWgcSuTqZyFF4_hoxp3S2qJ7iRisVp16K2eU6p5E7PW6cO0x6IhViBptedvTcKvn9lGJ9ePKIqbdosNrWvveQAZoJGWl1men1aZNR-2GYozew7xo_Z72uYuOO4"
+SPOTIFY_ACCESS_TOKEN = "UR TOKEN HERE"
 INFLUXDB_URL = "http://grafanapi.local:8086"
-INFLUXDB_TOKEN = "22wz8ZM3Fq8Vo9IX2ZBuvLaE00BmeHL7Jvzdw41hGoMnRmllyh9qJxyNqSQjtUYpseeJVbstyTWCyX3UoJYT3w=="
+INFLUXDB_TOKEN = "UR TOKEN HERE"
 ORG = "grafanapi"
 BUCKET = "spotify"
 
