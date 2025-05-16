@@ -5,8 +5,8 @@ import webbrowser
 import requests
 
 # Replace with your Spotify app credentials
-CLIENT_ID = '400ad5deedda48b3b76a1229d54d9791'
-CLIENT_SECRET = '7f1b6fa6e51848b9963cfaa1aab54af5'
+CLIENT_ID = 'UR TOKEN'
+CLIENT_SECRET = 'UR TOKEN'
 REDIRECT_URI = 'https://grafanapi.local/callback'  # The URL to redirect to after authentication
 
 # Authorization URL for Spotify
