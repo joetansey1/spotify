@@ -9,7 +9,7 @@ from influxdb_client import InfluxDBClient, Point, WritePrecision
 from influxdb_client.client.write_api import SYNCHRONOUS
 
 # ===== InfluxDB Setup =====
-TOKEN = "erfvQYLBhrERH9bu8ORZzBRbfQ4GuEM8_f4MYCvVeMJhe38F-K2hZf0C0aNj4MPhk-GyRxufLNRzNrAs0h8gjg=="
+TOKEN = "UR TOKEN HERE"
 ORG = "localorg"
 BUCKET = "spotify"
 URL = "http://localhost:8086"
